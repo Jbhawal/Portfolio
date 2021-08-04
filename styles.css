@@ -1,0 +1,254 @@
+html
+{
+	color: white;
+	font-family: 'Segoe UI', sans-serif; 
+}
+
+body
+{
+	background-color: black
+}
+
+div {
+    display: block;
+}
+
+.wrap {
+	margin: 0 auto;
+	position: relative;
+	width: 1300px;
+	min-height: 100%;
+	max-width: 75%;
+	box-sizing: border-box
+}
+
+#home, #home .wrap {
+	min-height: 100vh;
+	padding-top: 40px;
+    font-size: 30px;
+}
+
+.home {
+	color: #fff
+}
+
+.homeTextWrap {
+	position: absolute;
+	left: 0;
+	top: 25%;
+	/*z-index: 10000;*/
+	font-size: 2.5rem;
+	width: 60%
+}
+
+.homeTextWrap h1 {
+	width: 100%;
+	line-height: 0.7;
+	font-family: open sans, sans-serif;
+	font-weight: 500;
+	font-size: 3.5vw;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.projects {
+	color: #c22085
+}
+
+.projectsList {
+	display: block
+}
+
+.projectsList li {
+	padding: 0;
+	width: 100%;
+	margin: 2rem 0;
+	vertical-align: top;
+	color: #fff;
+	font-size: 22px;
+	font-size: 0.9rem;
+	position: relative
+}
+
+.projectsList li:first-child {
+	margin-top: 0
+}
+
+.projectsList li:last-child {
+	margin-bottom: 0
+}
+
+/*.projectsList li:focus article {
+	-webkit-transform: none!important;
+	-moz-transform: none!important;
+	-ms-transform: none!important;
+	-o-transform: none!important;
+	transform: none!important
+}*/
+
+.projectsList li article {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+	overflow: hidden
+}
+
+#projectsList a {
+	font-family: inherit
+}
+
+#projectsList a+a {
+	margin-top: -.75rem
+}
+
+.projListName {
+	font-size: 26px;
+	font-size: 1.6rem;
+	width: 100%;
+	color: #fff;
+	/*font-family: inconsolata, monospace;*/
+	padding: 0.3rem 1.5rem 0rem;
+	line-height: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.projectThumb {
+	display: block;
+	width: 100%;
+	overflow: hidden
+}
+
+.projListDesc {
+	padding: 0 1.5rem;
+	font-size: inherit
+}
+
+.projListDesc a {
+	/*text-transform: uppercase;*/
+	display: block;
+	margin: 1.75rem 0 1.5rem;
+	line-height: 1rem
+}
+
+#projectsList a {
+	-webkit-backface-visibility: hidden;
+	color: #c22085;
+}
+
+#projectsList a:hover {
+	color: #e2b8aa
+}
+
+.projListDesc .projListLink {
+	margin-top: 0;
+	margin-bottom: 1.75rem
+}
+
+
+.projectsList li {
+	border: 1px solid #c22085;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+
+
+
+/*.reveler {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #c22085;
+	-webkit-backface-visibility: hidden
+}
+
+.no-js .reveler {
+	display: none
+}*/
+
+
+
+/*---------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+.secHead {
+	font-family: inconsolata, monospace;
+	font-size: 2rem;
+	line-height: 1;
+	padding: 3.75rem 0;
+	position: relative;
+	left: -3rem
+}
+
+.about {
+	color: #2d9687
+}
+
+.about .secContent {
+	width: 50%;
+	width: 35rem;
+	max-width: 60%
+}
+
+
+.about .secContent p:nth-child(2),
+.about .secContent p:nth-child(3) {
+	color: #e9b171
+}
+
+a .btn-box{
+
+	color:white;
+
+
+
+}
+.btn-box {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	max-width: 30rem;
+	text-align: center;
+	display: block;
+	margin-top: 5rem;
+	overflow: visible;
+	position: relative;
+	display: block;
+	font-size: 1.375rem;
+	line-height: 2.4
+}
+
+.btn-box:hover {
+	background-color: #252323;
+	color: white;
+}
+
+.btn-box {
+	border: 1px solid #2d9687
+}
+
+
+/* 600px , tab centre vertiacally aligned */
+
+@media (max-wdith: 600px)
+{
+    .xyz
+    {
+        font-size: 40px;
+        text-align: center;
+
+    }
+}
